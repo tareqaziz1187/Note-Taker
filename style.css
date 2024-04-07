@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.notediv{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, green , blue);
+    padding-top: 4%;
+    color: #fff;
+    padding-left: 10%;
+}
+.notediv h1{
+display: flex;
+align-items: center;
+font-size: 35px;
+font-weight: 600;
+}
+.notediv h1 img{
+    width: 60px;
+    height: 60px;
+}
+.notediv button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#be0bc5, #f00813);
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0 5px;
+
+}
+.input-box{
+    font-size: 25px;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #f1deb2;
+    border-radius: 10px;
+    padding: 20px;
+    margin : 20px 0;
+    outline: none;
+    color: black;
+}
+.input-box img{
+height: 30px;
+width: 30px;
+position: absolute;
+bottom: 15px;
+right: 15px;
+cursor: pointer;
+
+}
